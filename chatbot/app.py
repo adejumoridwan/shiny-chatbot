@@ -4,7 +4,11 @@ import os
 import openai
 import asyncio
 import time
-openai.api_key_path = "openai_key.txt"
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 messages = [
     {"role": "system", "content": "You are a helpful and kind AI Assistant."},
