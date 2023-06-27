@@ -1,0 +1,3 @@
+venv/
+chatbot/openai_key.txt
+chatbot/__pycache__
