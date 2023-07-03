@@ -1,3 +1,4 @@
 venv/
 chatbot/.env
 chatbot/__pycache__
+chatbot/manifest.json
